@@ -8,9 +8,9 @@
     <option name="ANNOTATIONS_COLOR" value="8080ff" />
     <option name="ANNOTATIONS_MERGED_COLOR" value="80ff80" />
     <option name="CARET_COLOR" value="ffffff" />
-    <option name="CARET_ROW_COLOR" value="1c2d42" />
-    <option name="CONSOLE_BACKGROUND_KEY" value="d1622" />
-    <option name="GUTTER_BACKGROUND" value="d1622" />
+    <option name="CARET_ROW_COLOR" value="223752" />
+    <option name="CONSOLE_BACKGROUND_KEY" value="172436" />
+    <option name="GUTTER_BACKGROUND" value="1a293d" />
     <option name="INDENT_GUIDE" value="273e5c" />
     <option name="LINE_NUMBERS_COLOR" value="808080" />
     <option name="MODIFIED_LINES_COLOR" value="800080" />
@@ -1915,8 +1915,8 @@
     </option>
     <option name="TEXT">
       <value>
-        <option name="FOREGROUND" value="f0f0f0" />
-        <option name="BACKGROUND" value="d1622" />
+        <option name="FOREGROUND" value="f5f5f5" />
+        <option name="BACKGROUND" value="172436" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
