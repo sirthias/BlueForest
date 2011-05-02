@@ -63,7 +63,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Abstract class">
+    <option name="Scala Abstract class">
       <value>
         <option name="FOREGROUND" value="91ccff" />
         <option name="BACKGROUND" />
@@ -73,7 +73,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Annotation attribute name">
+    <option name="Scala Annotation attribute name">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -83,7 +83,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Annotation name">
+    <option name="Scala Annotation name">
       <value>
         <option name="FOREGROUND" value="ffcc33" />
         <option name="BACKGROUND" />
@@ -113,7 +113,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Bad character">
+    <option name="Scala Bad character">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="f05050" />
@@ -123,7 +123,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Block comment">
+    <option name="Scala Block comment">
       <value>
         <option name="FOREGROUND" value="50f050" />
         <option name="BACKGROUND" />
@@ -473,7 +473,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Class">
+    <option name="Scala Class">
       <value>
         <option name="FOREGROUND" value="91ccff" />
         <option name="BACKGROUND" />
@@ -483,7 +483,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Class method call">
+    <option name="Scala Class method call">
       <value>
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
@@ -933,7 +933,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Invalid escape in string">
+    <option name="Scala Invalid escape in string">
       <value>
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="ff8080" />
@@ -1303,7 +1303,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Keyword">
+    <option name="Scala Keyword">
       <value>
         <option name="FOREGROUND" value="99ff" />
         <option name="BACKGROUND" />
@@ -1323,7 +1323,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Line comment">
+    <option name="Scala Line comment">
       <value>
         <option name="FOREGROUND" value="50f050" />
         <option name="BACKGROUND" />
@@ -1333,7 +1333,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Local lazy val/var">
+    <option name="Scala Local lazy val/var">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -1343,7 +1343,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Local method call">
+    <option name="Scala Local method call">
       <value>
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
@@ -1353,7 +1353,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Local value">
+    <option name="Scala Local value">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -1363,7 +1363,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Local variable">
+    <option name="Scala Local variable">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -1513,7 +1513,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Method declaration">
+    <option name="Scala Method declaration">
       <value>
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
@@ -1543,7 +1543,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Object">
+    <option name="Scala Object">
       <value>
         <option name="FOREGROUND" value="91ccff" />
         <option name="BACKGROUND" />
@@ -1553,7 +1553,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Object method call">
+    <option name="Scala Object method call">
       <value>
         <option name="FOREGROUND" />
         <option name="BACKGROUND" />
@@ -1623,7 +1623,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Parameter">
+    <option name="Scala Parameter">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -1633,7 +1633,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Pattern value">
+    <option name="Scala Pattern value">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -1643,7 +1643,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Predefined types">
+    <option name="Scala Predefined types">
       <value>
         <option name="FOREGROUND" value="91ccff" />
         <option name="BACKGROUND" />
@@ -2433,7 +2433,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Template lazy val/var">
+    <option name="Scala Template lazy val/var">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -2443,7 +2443,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Template val">
+    <option name="Scala Template val">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -2453,7 +2453,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Template var">
+    <option name="Scala Template var">
       <value>
         <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
@@ -2463,7 +2463,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Trait">
+    <option name="Scala Trait">
       <value>
         <option name="FOREGROUND" value="ffcc33" />
         <option name="BACKGROUND" />
@@ -2473,7 +2473,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Type Alias">
+    <option name="Scala Type Alias">
       <value>
         <option name="FOREGROUND" value="91ccff" />
         <option name="BACKGROUND" />
@@ -2483,7 +2483,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Type parameter">
+    <option name="Scala Type parameter">
       <value>
         <option name="FOREGROUND" value="ffcc33" />
         <option name="BACKGROUND" />
@@ -2503,7 +2503,7 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
-    <option name="Valid escape in string">
+    <option name="Scala Valid escape in string">
       <value>
         <option name="FOREGROUND" value="83a6c1" />
         <option name="BACKGROUND" />
