@@ -1263,6 +1263,16 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="MARKDOWN.AUTO_LINK">
+      <value>
+        <option name="FOREGROUND" value="99ff" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="-1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="MARKDOWN.BLOCK_QUOTE">
       <value>
         <option name="FOREGROUND" value="83a6c1" />
@@ -1443,6 +1453,16 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="MARKDOWN.MAIL_LINK">
+      <value>
+        <option name="FOREGROUND" value="99ff" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="-1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="MARKDOWN.ORDERED_LIST">
       <value>
         <option name="FOREGROUND" value="ff8080" />
@@ -1476,6 +1496,16 @@
     <option name="MARKDOWN.REFERENCE">
       <value>
         <option name="FOREGROUND" value="ff8080" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="-1" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
+    <option name="MARKDOWN.REFERENCE_LINK">
+      <value>
+        <option name="FOREGROUND" value="99ff" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
