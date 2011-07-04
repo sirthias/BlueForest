@@ -16,6 +16,7 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * Yaml
 * Erb
 * Ruby
+* Python
 
 A screenshot for _BlueForest_ colors for Scala is available [here][1]
 
