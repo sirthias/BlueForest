@@ -1395,7 +1395,7 @@
     </option>
     <option name="LUA_DEFINED_CONSTANTS">
       <value>
-        <option name="FOREGROUND" />
+        <option name="FOREGROUND" value="f7ff66" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1405,9 +1405,9 @@
     </option>
     <option name="LUA_GLOBAL_VAR">
       <value>
-        <option name="FOREGROUND" value="91ccff" />
+        <option name="FOREGROUND" value="ffcc33" />
         <option name="BACKGROUND" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
         <option name="EFFECT_TYPE" value="0" />
         <option name="ERROR_STRIPE_COLOR" />
@@ -1425,7 +1425,7 @@
     </option>
     <option name="LUA_LOCAL_VAR">
       <value>
-        <option name="FOREGROUND" value="fffab1" />
+        <option name="FOREGROUND" value="91cdff" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1455,17 +1455,17 @@
     </option>
     <option name="LUA_LONGSTRING">
       <value>
-        <option name="FOREGROUND" value="a0ffa0" />
-        <option name="BACKGROUND" />
+        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="BACKGROUND" value="1c1c1c" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
-        <option name="EFFECT_TYPE" value="0" />
+        <option name="EFFECT_TYPE" value="5" />
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
     <option name="LUA_LONGSTRING_BRACES">
       <value>
-        <option name="FOREGROUND" value="a0ffa0" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1513,9 +1513,19 @@
         <option name="ERROR_STRIPE_COLOR" />
       </value>
     </option>
+    <option name="LUA_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="be9eff" />
+        <option name="BACKGROUND" />
+        <option name="FONT_TYPE" value="0" />
+        <option name="EFFECT_COLOR" />
+        <option name="EFFECT_TYPE" value="0" />
+        <option name="ERROR_STRIPE_COLOR" />
+      </value>
+    </option>
     <option name="LUA_STRING">
       <value>
-        <option name="FOREGROUND" value="a0ffa0" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
