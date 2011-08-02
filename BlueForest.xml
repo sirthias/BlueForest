@@ -1385,7 +1385,7 @@
     </option>
     <option name="LUA_COMMENT">
       <value>
-        <option name="FOREGROUND" value="50f050" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -1435,7 +1435,7 @@
     </option>
     <option name="LUA_LONGCOMMENT">
       <value>
-        <option name="FOREGROUND" value="50f050" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -1445,7 +1445,7 @@
     </option>
     <option name="LUA_LONGCOMMENT_BRACES">
       <value>
-        <option name="FOREGROUND" value="50f050" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -1455,7 +1455,7 @@
     </option>
     <option name="LUA_LONGSTRING">
       <value>
-        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="FOREGROUND" value="50f050" />
         <option name="BACKGROUND" value="1c1c1c" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1465,7 +1465,7 @@
     </option>
     <option name="LUA_LONGSTRING_BRACES">
       <value>
-        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="FOREGROUND" value="50f050" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
@@ -1475,7 +1475,7 @@
     </option>
     <option name="LUA_LUADOC">
       <value>
-        <option name="FOREGROUND" value="50f050" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_COLOR" />
@@ -1485,7 +1485,7 @@
     </option>
     <option name="LUA_LUADOC_TAG">
       <value>
-        <option name="FOREGROUND" value="50f050" />
+        <option name="FOREGROUND" value="c0c0c0" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="1" />
         <option name="EFFECT_COLOR" value="808080" />
@@ -1525,7 +1525,7 @@
     </option>
     <option name="LUA_STRING">
       <value>
-        <option name="FOREGROUND" value="c0c0c0" />
+        <option name="FOREGROUND" value="50f050" />
         <option name="BACKGROUND" />
         <option name="FONT_TYPE" value="0" />
         <option name="EFFECT_COLOR" />
