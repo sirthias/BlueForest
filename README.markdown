@@ -19,6 +19,7 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * Python
 * Groovy
 * Velocity
+* Lua
 
 A screenshot for _BlueForest_ colors for Scala is available [here][1]
 
