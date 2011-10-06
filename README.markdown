@@ -19,6 +19,8 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * Python
 * Groovy
 * Velocity
+* Lua
+* Clojure
 
 A screenshot for _BlueForest_ colors for Scala is available [here][1]
 
@@ -35,4 +37,4 @@ After you have installed the color scheme restart IDEA and select _BlueForest_ i
 
 
   [1]: http://www.decodified.com/misc/2011/06/15/blueforest-a-dark-color-scheme-for-intellij-idea.html
-  
+
