@@ -1,4 +1,4 @@
-**_BlueForest_** is a dark color-scheme for IntelliJ IDEA 10.x.
+**_BlueForest_** is a dark color-scheme for IntelliJ IDEA 10.x and 11.x.
 
 Currently _BlueForest_ provides matching colors for these languages/file types:
 
