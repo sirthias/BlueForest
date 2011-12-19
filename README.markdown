@@ -21,6 +21,17 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * Velocity
 * Lua
 * Clojure
+* Actionscript
+* MXML
+* PHP
+* Buildout Config files
+* Django/Jinja2 Templates
+* GQL
+* Locale files
+* Mako
+* Python
+* ReST
+
 
 A screenshot for _BlueForest_ colors for Scala is available [here][1]
 
