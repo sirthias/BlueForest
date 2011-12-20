@@ -2,35 +2,36 @@
 
 Currently _BlueForest_ provides matching colors for these languages/file types:
 
-* Java
-* XML
-* HTML
-* RegExp
-* Bash (the _BashSupport_ plugin)
-* CSS
-* Properties
-* JavaScript
-* Markdown (the _idea-markdown_ plugin)
-* Scala
-* Haml
-* Yaml
-* Erb
-* Ruby
-* Python
-* Groovy
-* Velocity
-* Lua
-* Clojure
 * Actionscript
+* Bash (the _BashSupport_ plugin)
+* Buildout Config files
+* Clojure
+* CoffeeScript
+* CSS
+* Django/Jinja2 Templates
+* Erb
+* Groovy
+* GQL
+* Haml
+* HTML
+* Java
+* JavaScript
+* LESS
+* Locale files
+* Lua
+* Mako
+* Markdown (the _idea-markdown_ plugin)
 * MXML
 * PHP
-* Buildout Config files
-* Django/Jinja2 Templates
-* GQL
-* Locale files
-* Mako
+* Properties
 * Python
+* RegExp
 * ReST
+* Ruby
+* Scala
+* Velocity
+* XML
+* Yaml
 
 
 A screenshot for _BlueForest_ colors for Scala is available [here][1]
