@@ -16,6 +16,8 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * HTML
 * Java
 * JavaScript
+* JSP
+* JPA/EJB/Hibernate QL
 * LESS
 * Locale files
 * Lua
@@ -29,6 +31,7 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * ReST
 * Ruby
 * Scala
+* SQL
 * Velocity
 * XML
 * Yaml
