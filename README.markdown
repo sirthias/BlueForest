@@ -13,6 +13,7 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * Groovy
 * GQL
 * Haml
+* Haxe
 * HTML
 * Java
 * JavaScript
