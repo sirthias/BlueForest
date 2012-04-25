@@ -21,8 +21,8 @@ fi
 # linux locations
 if [ -d ~ ]
 then
-    dirs+=" ~/.IntelliJIdea"
-    dirs+=" ~/.IdeaIC"
+    dirs+=" $HOME/.IntelliJIdea"
+    dirs+=" $HOME/.IdeaIC"
 fi
 
 # cygwin locations
@@ -39,6 +39,7 @@ do
     for dirName in $dirs
     do
         dir="`echo $dirName$version/config/colors`"
+        echo $dir
 
         if [ -e "$dir" ]
         then
