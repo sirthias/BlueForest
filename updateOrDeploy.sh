@@ -14,8 +14,8 @@ export dirs
 # mac locations
 if [ -d ~/Library ]
 then
-    dirs+=" ~/Library/Preferences/IntelliJIdea"
-    dirs+=" ~/Library/Preferences/IdeaIC"
+    dirs+=" $HOME/Library/Preferences/IntelliJIdea"
+    dirs+=" $HOME/Library/Preferences/IdeaIC"
 fi
 
 # linux locations
