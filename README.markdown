@@ -3,6 +3,7 @@
 Currently _BlueForest_ provides matching colors for these languages/file types:
 
 * Actionscript
+* Android Logcat
 * Bash (the _BashSupport_ plugin)
 * Buildout Config files
 * Clojure
