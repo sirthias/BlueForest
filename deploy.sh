@@ -2,4 +2,3 @@
 export mode="deploy"
 
 ./updateOrDeploy.sh
-
