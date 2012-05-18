@@ -32,26 +32,36 @@ then
     dirs+=" $USERPROFILE/.IdeaIC"
 fi
 
+function copy_color_file {
+    if [ "$mode" = "update" ]
+    then
+        echo "Copying BlueForest.xml from $1 to $PWD"
+        cp -i $1/BlueForest.xml .
+    else
+        echo "Copying BlueForest.xml to $1"
+        cp -i BlueForest.xml $1
+    fi
+    installDir=$1
+}
+
 # potential directories picked, check for different versions,
 # select first match
 for version in "11" "10"
 do
     for dirName in $dirs
     do
-        dir="`echo $dirName$version/config/colors`"
-        echo $dir
+        configDir="`echo $dirName$version/config/colors`"
+        dir="`echo $dirName$version/colors`"
 
-        if [ -e "$dir" ]
+        if [ -e "$configDir" ]
         then
-            if [ "$mode" = "update" ]
-            then
-                echo "Copying BlueForest.xml from $dir to $PWD"
-                cp -i $dir/BlueForest.xml .
-            else
-                echo "Copying BlueForest.xml to $dir"
-                cp -i BlueForest.xml $dir
-            fi
-            installDir=$dir
+            echo $configDir
+            copy_color_file $configDir
+            break 2
+        elif [ -e "$dir" ]
+        then
+            echo $dir
+            copy_color_file $dir
             break 2
         fi
     done
@@ -63,3 +73,4 @@ then
     echo "IntelliJ directory was not found"
     exit 1
 fi
+
