@@ -41,11 +41,11 @@ function copy_color_file {
         echo "Copying BlueForest.xml to $1"
         cp -i BlueForest.xml $1
     fi
-    installDir=$1
+    lastInstallDir=$1
 }
 
 # potential directories picked, check for different versions,
-# select first match
+# copy to all matches, stale preference structures may exist
 for version in "11" "10"
 do
     for dirName in $dirs
@@ -57,18 +57,16 @@ do
         then
             echo $configDir
             copy_color_file $configDir
-            break 2
         elif [ -e "$dir" ]
         then
             echo $dir
             copy_color_file $dir
-            break 2
         fi
     done
 done
 
 # No IntelliJ found, exit
-if [ -z $installDir ]
+if [ -z $lastInstallDir ]
 then
     echo "IntelliJ directory was not found"
     exit 1
