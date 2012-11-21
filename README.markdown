@@ -11,6 +11,7 @@ Currently _BlueForest_ provides matching colors for these languages/file types:
 * CSS
 * Django/Jinja2 Templates
 * Erb
+* Erlang
 * Groovy
 * GQL
 * Haml
