@@ -46,7 +46,7 @@ function copy_color_file {
 
 # potential directories picked, check for different versions,
 # copy to all matches, stale preference structures may exist
-for version in "11" "10"
+for version in "12" "11" "10"
 do
     for dirName in $dirs
     do
