@@ -37,9 +37,11 @@ function copy_color_file {
     then
         echo "Copying BlueForest.xml from $1 to $PWD"
         cp -i $1/BlueForest.xml .
+        cp -i $1/DarculaForest.xml .
     else
         echo "Copying BlueForest.xml to $1"
         cp -i BlueForest.xml $1
+        cp -i DarculaForest.xml $1
     fi
     lastInstallDir=$1
 }
