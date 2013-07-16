@@ -1,4 +1,4 @@
-**_BlueForest_** is a dark color-scheme for IntelliJ IDEA 10.x and 11.x.
+**_BlueForest_** is a dark color-scheme for IntelliJ IDEA 10.x, 11.x and 12.x.
 
 Currently _BlueForest_ provides matching colors for these languages/file types:
 
@@ -44,7 +44,7 @@ A screenshot for _BlueForest_ colors for Scala is available [here][1]
 
 ### Installation
 
-Copy the `BlueForest.xml` file into the `/colors` directory underneath your IDEA installation folder.
+Copy the `BlueForest.xml` file into the `/colors` directory underneath your IDEA installation folder (or the user profile IntelliJ folder, depending on your OS).
 If you are on OSX/linux or using cygwin on Windows, you can also clone this git repository into a directory of your choice and use the `deploy.sh` script to install _BlueForest_ and the `update.sh` script to copy back changes you made in IDEA.
 
 After you have installed the color scheme restart IDEA and select _BlueForest_ in _Preferences/Editor/Colors&Fonts_.
