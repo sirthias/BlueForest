@@ -35,11 +35,11 @@ fi
 function copy_color_file {
     if [ "$mode" = "update" ]
     then
-        echo "Copying BlueForest.xml from $1 to $PWD"
-        cp -i $1/BlueForest.xml .
+        echo "Copying BlueForest.{xml, icls} from $1 to $PWD"
+        cp -i $1/BlueForest.xml $1/BlueForest.icls .
     else
-        echo "Copying BlueForest.xml to $1"
-        cp -i BlueForest.xml $1
+        echo "Copying BlueForest.{xml, icls} to $1"
+        cp -i BlueForest.xml BlueForest.icls $1
     fi
     lastInstallDir=$1
 }
