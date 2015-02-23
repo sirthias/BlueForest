@@ -1,4 +1,4 @@
-#/bin/bash
+#!/bin/bash
 export mode="deploy"
 
 ./updateOrDeploy.sh
