@@ -23,6 +23,7 @@ if [ -d ~ ]
 then
     dirs+=" $HOME/.IntelliJIdea"
     dirs+=" $HOME/.IdeaIC"
+    dirs+=" $HOME/.IdeaIC14"
 fi
 
 # cygwin locations
@@ -54,18 +55,25 @@ do
     typeset only_name=${dirName##*/}
     if [[ -e "${only_dir}" ]] 
     then
-        for cfgDir in $(find ${only_dir}  -maxdepth 1 -type d -name "${only_name}[0-9]*")
+        for baseDir in $(find ${only_dir}  -maxdepth 1 -type d -name "${only_name}[0-9]*")
         do
-            configDir="${cfgDir}/config/colors"
-            dir="${cfgDir}/colors"
-            if [ -e "$configDir" ]
+	    configDir="${baseDir}/config"
+            colorDir="${configDir}/colors"
+            dir="${baseDir}/colors"
+            if [ -e "$colorDir" ]
             then
-                echo $configDir
-                copy_color_file $configDir
+                echo $colorDir
+                copy_color_file $colorDir
             elif [ -e "$dir" ]
             then
                 echo $dir
                 copy_color_file $dir
+	    elif [ -e "$configDir" ]
+            then
+		# creating new empty color directory
+		mkdir $colorDir
+		echo $colorDir
+		copy_color_file $colorDir
             fi
         done
     fi
