@@ -57,7 +57,7 @@ do
     then
         for baseDir in $(find ${only_dir}  -maxdepth 1 -type d -name "${only_name}[0-9]*")
         do
-	    configDir="${baseDir}/config"
+            configDir="${baseDir}/config"
             colorDir="${configDir}/colors"
             dir="${baseDir}/colors"
             if [ -e "$colorDir" ]
@@ -68,12 +68,12 @@ do
             then
                 echo $dir
                 copy_color_file $dir
-	    elif [ -e "$configDir" ]
+            elif [ -e "$configDir" ]
             then
-		# creating new empty color directory
-		mkdir $colorDir
-		echo $colorDir
-		copy_color_file $colorDir
+                # creating new empty color directory
+                mkdir $colorDir
+                echo $colorDir
+                copy_color_file $colorDir
             fi
         done
     fi
@@ -86,4 +86,3 @@ then
     echo "IntelliJ directory was not found"
     exit 1
 fi
-
