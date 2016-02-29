@@ -1,8 +1,8 @@
 #!/bin/bash
 # updateOrDeploy.sh - updates or deploys the BlueForest.xml.
 #
-# Copies the BlueForest.xml from/to the current users IntelliJ config 
-# colors directory. 
+# Copies the BlueForest.xml from/to the current users IntelliJ config
+# colors directory.
 #
 # Works for MacOSX, Linux and windows (using cygwin/mingw)
 #
@@ -24,10 +24,11 @@ then
     dirs+=" $HOME/.IntelliJIdea"
     dirs+=" $HOME/.IdeaIC"
     dirs+=" $HOME/.IdeaIC14"
+    dirs+=" $HOME/.IdeaIC15"
 fi
 
 # cygwin locations
-if [ ! -z $USERPROFILE ] 
+if [ ! -z $USERPROFILE ]
 then
     dirs+=" $USERPROFILE/.IntelliJIdea"
     dirs+=" $USERPROFILE/.IdeaIC"
@@ -51,9 +52,9 @@ for dirName in  $dirs
 do
     typeset old_ifs=$IFS
     #IFS=$'\n'
-    typeset only_dir=${dirName%/*} 
+    typeset only_dir=${dirName%/*}
     typeset only_name=${dirName##*/}
-    if [[ -e "${only_dir}" ]] 
+    if [[ -e "${only_dir}" ]]
     then
         for baseDir in $(find ${only_dir}  -maxdepth 1 -type d -name "${only_name}[0-9]*")
         do
