@@ -1072,8 +1072,6 @@
     </option>
     <option name="Implicit conversion">
       <value>
-        <option name="FOREGROUND" value="f5f5f5" />
-        <option name="BACKGROUND" value="141f2e" />
         <option name="EFFECT_COLOR" value="808080" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
