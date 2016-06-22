@@ -34,7 +34,6 @@
         <option name="FOREGROUND" value="91ccff" />
       </value>
     </option>
-    <option name="ABSTRACT_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="fffab1" />
@@ -72,6 +71,11 @@
     <option name="BASH.INTERNAL_COMMAND">
       <value>
         <option name="FOREGROUND" value="ffcc33" />
+      </value>
+    </option>
+    <option name="BASH.REDIRECTION">
+      <value>
+        <option name="FOREGROUND" value="808000" />
       </value>
     </option>
     <option name="BASH.VAR_USE">
@@ -524,6 +528,13 @@
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
+    <option name="DEFAULT_DOC_COMMENT_TAG_VALUE">
+      <value>
+        <option name="FONT_TYPE" value="3" />
+        <option name="EFFECT_COLOR" value="3c3f41" />
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
     <option name="DEFAULT_DOC_MARKUP">
       <value>
         <option name="BACKGROUND" value="273e5c" />
@@ -823,7 +834,6 @@
         <option name="BACKGROUND" value="20344d" />
       </value>
     </option>
-    <option name="ENUM_NAME_ATTRIBUTES" baseAttributes="CLASS_NAME_ATTRIBUTES" />
     <option name="ERRORS_ATTRIBUTES">
       <value>
         <option name="EFFECT_COLOR" value="ff3333" />
@@ -1049,7 +1059,6 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
-    <option name="INHERITED_METHOD_ATTRIBUTES" baseAttributes="METHOD_CALL_ATTRIBUTES" />
     <option name="INJECTED_LANGUAGE_FRAGMENT">
       <value />
     </option>
@@ -1779,6 +1788,11 @@
         <option name="FOREGROUND" value="ff8080" />
       </value>
     </option>
+    <option name="PHP_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="f4eeaa" />
+      </value>
+    </option>
     <option name="PHP_PREDEFINED SYMBOL">
       <value>
         <option name="FOREGROUND" value="91ccff" />
@@ -1906,18 +1920,7 @@
         <option name="FOREGROUND" value="a0ffa0" />
       </value>
     </option>
-    <option name="PY.STRING.B">
-      <value>
-        <option name="FOREGROUND" value="50f050" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="PY.STRING.U">
-      <value>
-        <option name="FOREGROUND" value="a0ffa0" />
-        <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
+    <option name="PY.STRING.U" baseAttributes="DEFAULT_STRING" />
     <option name="PY.VALID_STRING_ESCAPE">
       <value>
         <option name="FOREGROUND" value="83a6c1" />
